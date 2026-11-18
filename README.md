@@ -1,4 +1,4 @@
-﻿# CSCI167 Deep Learning Project: Rotten Tomatoes sentiment classification
+# CSCI167 Deep Learning Project: Rotten Tomatoes sentiment classification
 
 **Dataset:** `cornell-movie-review-data/rotten_tomatoes` (Pang & Lee, ACL 2005). Binary sentiment (0 = neg, 1 = pos) on single sentences.
 Official splits: train 8,530 / validation 1,066 / test 1,066. Balanced (5,331 pos / 5,331 neg overall). License listed as "unknown" on the dataset card.
@@ -15,7 +15,7 @@ Official splits: train 8,530 / validation 1,066 / test 1,066. Balanced (5,331 po
 | `results/` | `results_<A|B|C>.csv`, `history/*.json` (learning curves + test predictions), `checkpoints/`, `env_*.json` |
 
 ## Run (Google Colab)
-1. Put this folder in a GitHub repo; `REPO_URL` in each notebook (first code cell) already points to this repo.
+1. Repo: https://github.com/ZhongVang/csci167-rotten-tomatoes (`REPO_URL` in each notebook's first code cell already points to it).
 2. Open the notebook in Colab, set Runtime to GPU (T4), Run all. Results are saved to Drive (`MyDrive/CSCI167_results`) if you allow the Drive prompt.
 3. After everyone has run: copy the three `results_*.csv` into one folder and run `summarize()` (see end of each notebook).
 
