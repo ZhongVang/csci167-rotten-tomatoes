@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+# large/generated outputs: keep results CSVs and history, not model weights
+results/checkpoints/
