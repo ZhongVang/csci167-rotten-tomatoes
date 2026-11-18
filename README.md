@@ -9,10 +9,13 @@ Official splits: train 8,530 / validation 1,066 / test 1,066. Balanced (5,331 po
 | File | Purpose |
 |---|---|
 | `common.py` | Shared, FROZEN code: data/splits, vocab, training loop, early stopping, logging, plots |
-| `notebooks/A_baseline_mlp.ipynb` | Person A: mean-pooled embedding + MLP (baseline) |
-| `notebooks/B_cnn_hparams.ipynb` | Person B: 1D CNN + hyperparameter study (optimizer, dropout) |
-| `notebooks/C_transformers.ipynb` | Person C: small transformer (scratch), DistilBERT fine-tuned, DistilBERT frozen |
+| `notebooks/A_baseline_mlp.ipynb` | Person A template: write the baseline (embedding + fully connected network) |
+| `notebooks/B_cnn_hparams.ipynb` | Person B template: write a 1D CNN, then run the hyperparameter study (>= 2 factors, >= 2 settings each) |
+| `notebooks/C_transformers.ipynb` | Person C template: write a small transformer (scratch); DistilBERT fine-tuned/frozen is wired up |
 | `results/` | `results_<A|B|C>.csv`, `history/*.json` (learning curves + test predictions), `checkpoints/`, `env_*.json` |
+
+Each notebook is a **template**: the setup, training runs, sanity check, plots and error analysis already work.
+You write the model class (`MyModel`, cell marked `YOUR MODEL`, with suggested architecture and textbook chapter in the text above it).
 
 ## Run (Google Colab)
 1. Repo: https://github.com/ZhongVang/csci167-rotten-tomatoes (`REPO_URL` in each notebook's first code cell already points to it).
