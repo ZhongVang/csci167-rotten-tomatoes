@@ -1,0 +1,11 @@
+timestamp,run_name,model,seed,train_frac,n_train,n_val,n_test,optimizer,lr,weight_decay,schedule,batch_size,epochs_max,patience,epochs_run,best_epoch,best_val_acc,test_acc,test_f1,trainable_params,total_params,train_seconds,device,common_version,extra
+2026-11-27T00:47:42,mlp_test_f0.1_s0,Multilayer perceptron,0,0.1,852,1066,1066,adam,0.001,0.0,constant,64,20,5,16,11,0.6107,0.6248,0.6236,208642,208642,1.5,cuda,65ca4193,{}
+2026-11-27T00:47:47,mlp_f1.0_s0,Multilayer perceptron,0,1.0,8530,1066,1066,adam,0.001,0.0,constant,64,20,5,11,6,0.7251,0.7636,0.7633,1166338,1166338,5.1,cuda,65ca4193,{}
+2026-11-27T00:47:53,mlp_f1.0_s1,Multilayer perceptron,1,1.0,8530,1066,1066,adam,0.001,0.0,constant,64,20,5,11,6,0.7486,0.7289,0.7289,1166338,1166338,6.1,cuda,65ca4193,{}
+2026-11-27T00:47:58,mlp_f1.0_s2,Multilayer perceptron,2,1.0,8530,1066,1066,adam,0.001,0.0,constant,64,20,5,11,6,0.7383,0.7439,0.7439,1166338,1166338,5.1,cuda,65ca4193,{}
+2026-11-27T00:48:01,mlp_f0.25_s0,Multilayer perceptron,0,0.25,2132,1066,1066,adam,0.001,0.0,constant,64,20,5,15,10,0.6642,0.6651,0.6637,445058,445058,2.1,cuda,65ca4193,{}
+2026-11-27T00:48:03,mlp_f0.25_s1,Multilayer perceptron,1,0.25,2132,1066,1066,adam,0.001,0.0,constant,64,20,5,15,10,0.6679,0.6773,0.6771,441986,441986,2.1,cuda,65ca4193,{}
+2026-11-27T00:48:06,mlp_f0.25_s2,Multilayer perceptron,2,0.25,2132,1066,1066,adam,0.001,0.0,constant,64,20,5,20,15,0.6623,0.6698,0.6697,439298,439298,3.5,cuda,65ca4193,{}
+2026-11-27T00:48:08,mlp_f0.1_s0,Multilayer perceptron,0,0.1,852,1066,1066,adam,0.001,0.0,constant,64,20,5,16,11,0.6107,0.6248,0.6236,208642,208642,1.5,cuda,65ca4193,{}
+2026-11-27T00:48:10,mlp_f0.1_s1,Multilayer perceptron,1,0.1,852,1066,1066,adam,0.001,0.0,constant,64,20,5,20,19,0.6313,0.6248,0.6248,208770,208770,1.5,cuda,65ca4193,{}
+2026-11-27T00:48:11,mlp_f0.1_s2,Multilayer perceptron,2,0.1,852,1066,1066,adam,0.001,0.0,constant,64,20,5,20,19,0.6238,0.6313,0.6313,211458,211458,1.5,cuda,65ca4193,{}
